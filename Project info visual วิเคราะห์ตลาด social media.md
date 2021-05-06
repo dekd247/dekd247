@@ -22,7 +22,7 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 
 ลำดับที่ 3ทำการแยก influence ที่ครอบครอง engagement 50 % แรก ด้วยขบวนการนี้ทำให้เราสามารถแยกได้ว่า influencer คนนี้ทำ content เกี่ยวกับอะไรซึ่งสามารถทำได้ง่ายมากเพราะมีจำนวนน้อย โดยผมสมมุติฐานไว้ว่า influecner เหล่านี้จะเกี่ยวกับการทำ content ของ Platform โดยรวม
 เช่นถ้า platform youtube มีการแยก influencer ออกมาแล้วเป็น Gamer เยอะก็จะสรุปได้ว่า Platform Youtuber จะเกี่ยวกับเกมเป็นหลัก หรือถ้า Twitter มี User influencer ที่แยกออกมาแล้วเกี่ยวกับการเมืองเยอะ ก็อาจจะเป็นไปได้ว่าทั้ง Platform Twitter จะเกี่ยวกับ การเมือง
-การเมือง โดยการทำ influencer จะต้องประกอบไปด้วยกราฟ 
+โดยการทำ influencer จะต้องประกอบไปด้วยกราฟ 
 1. scatter plot ที่แกน X เป็นยอด Fan และ y เป็นยอด Engagement
 2. Engagement กราฟนี้จะสามารถบอกได้ว่า Engaggement 50% ของแต่ละ platform influencer กลุ่มไหนครอบครองมากสุด
 3. Fan/Subscribe กราฟนี้จะบอกว่า ในกลุ่ม influencer ที่กล่าวมาในข้อ 2 กลุ่มไหนมียอดแฟนเยอะสุด
