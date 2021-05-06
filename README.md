@@ -10,11 +10,14 @@ thumbnail:![visualization (2)](https://user-images.githubusercontent.com/8372206
 ซึ่งในการวัดว่า Platform ไหนผู้ใช้เยอะสุดเราได้วัดจากถ้า Platform ไหนมีจำนวนเยอะสุดในหัวข้อนั้นๆ จะได้ 4 คะแนน ส่วนลำดับรองลงมาก็จะได้คะแนน 3 2 และ 1 ตามลำดับ 
 2. ดูเปอร์เซนต์การเปลี่ยนแปลงของ Engagement ในแต่ละเดือนการทำกราฟเวลาสามารถใช้เป็นหลักฐานได้ว่า Platform นี้จะมี User พูดถึงเกี่ยวกับอะไรบ้าง
 3.ทำการแยก influence ที่ครอบครอง engagement 50 % แรก ด้วยขบวนการนี้ทำให้เราสามารถแยกได้ว่า influencer คนนี้ทำ content เกี่ยวกับอะไรซึ่งสามารถทำได้ง่ายมากเพราะมีจำนวนน้อย โดยผมสมมุติฐานไว้ว่า influecner เหล่านี้จะเกี่ยวกับการทำ content ของ Platform โดยรวม
-เช่นถ้า platform youtube มีการแยก influencer ออกมาแล้วเป็น Gamer เยอะก็จะสรุปได้ว่า Platform Youtuber จะเกี่ยวกับเกมเป็นหลัก หรือถ้า Twitter มี User influencer ที่แยกออกมาแล้วเกี่ยวกับการเมืองเยอะ ก็อาจจะเป็นไปได้ว่าทั้ง Platform Twitter จะเกี่ยวกับ
-การเมือง โดยการทำ influencer จะต้องประกอบไปด้วยกราฟ 1. scatter plot ที่แกน X เป็นยอด Fan และ y เป็นยอด Engagement 2.piechart engagemen,fan,Point-eng,Point-Fan 3.barchart ที่แสดงจำนวน influencer แต่ละประเภท
-โดย point-engagement คือ การนำ ยอด engagement / จำนวน user
-4.ทำ Wordcloud โดย wordcloud เป็นวิธีหาคำศัพท์ไหนที่ใช้ใน Platform นั้นเยอะ โดยคำศัพท์ที่ใช้เยอะจะตัวใหญ่ Wordcloud เป็นอีก 1 visual Evidence ที่จะสามารถสรุปได้ว่า Platform นั้นทำเกี่ยวกับอะไร เช่นถ้า Wordcloud ของ Twitter เกี่ยวกับการเมืองก็เป็นไปได้ว่าทั้ง Platform
-อาจจะเกี่ยวกับการเมืองเป็นต้น
+เช่นถ้า platform youtube มีการแยก influencer ออกมาแล้วเป็น Gamer เยอะก็จะสรุปได้ว่า Platform Youtuber จะเกี่ยวกับเกมเป็นหลัก หรือถ้า Twitter มี User influencer ที่แยกออกมาแล้วเกี่ยวกับการเมืองเยอะ ก็อาจจะเป็นไปได้ว่าทั้ง Platform Twitter จะเกี่ยวกับ การเมือง
+การเมือง โดยการทำ influencer จะต้องประกอบไปด้วยกราฟ 
+1. scatter plot ที่แกน X เป็นยอด Fan และ y เป็นยอด Engagement
+2. Engagement กราฟนี้จะสามารถบอกได้ว่า Engaggement 50% ของแต่ละ platform influencer กลุ่มไหนครอบครองมากสุด
+3. Fan/Subscribe กราฟนี้จะบอกว่า ในกลุ่ม influencer ที่กล่าวมาในข้อ 2 กลุ่มไหนมียอดแฟนเยอะสุด
+4. Point-eng จะบอกเป็นแบบราย user กล่าวคือถ้าเราเป็น influencer นี้ จะมีโอกาสได้ engagement เยอะสุดหรือไม่ คำนวนโดย (engagement ของ influencer/จำนวน influencer)
+5. Point-fan จะบอกเป็นแบบราย user กล่าวคือถ้าเราเป็น influencer นี้ จะมีโอกาสได้ fan เยอะสุดหรือไม่ (Fan ของ influencer/จำนวน influencer)
+6. Wordcloud Wordcloud เป็นอีก 1 เครื่องมือที่ช่วยดูว่าทั้ง Platform กำลังพูดถึงเรื่องอะไร โดย wordcloud สามารถเป็นเครื่องมือในการช่วยตัดสินใจ
 ผลลัพธ์ที่ออกมาโดยสามารถดูรายละเอียดเพิ่มเติมได้ที่ URL ข้างบนเนื่องจากบางผลลัพธ์จำเป็นที่จะต้องใช้รูปดูประกอบ
 ## 1. Platform ที่คนใช้มากสุด
 Platform	Score
