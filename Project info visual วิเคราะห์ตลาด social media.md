@@ -39,6 +39,8 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 
 Facebook>Youtube>IG>Twitter
 ## 2.การทำ line chart 
+![linechart](https://user-images.githubusercontent.com/83722061/117256436-e49f0c00-ae74-11eb-93c4-e9494f8d4891.PNG)
+
 ในการทำ line chart เกี่ยวกับการใช้งานของแต่ละ Platform ในแต่ละช่วงเวลา เราได้ตั้งเดือนมกราคมเป็นเดือนฐาน เดือนต่อๆ มาจะลบด้วยเดือนฐานและหารด้วยเดือนฐาน คูณ 100ผลลัพธ์ที่ออกมาจะได้เป็น Percentage การเปลี่ยนแปลง Engagement โดยจะเห็นได้ว่า Twitter และ Facebook จะ
 มีแนวโน้มไปในทางเดียวกัน กล่าวคือยอดเปอร์เซนต์จะพุ่งขึ้นเมื่อเกิดเหตุการณ์สำคัญในบ้านเมือง เรายังสามารถตั้งสมมุติฐานไปได้อีกว่า กลุ่ม Influencer น่าจะเกี่ยวกับข่าวสาร หรือไม่ก็ผู้ใช้ platform ที่ชอบการเมืองมากๆ Platform IG คล้ายๆกับ Twitter และ Facebook แต่เส้นจะคงตัวมากกว่า และ Platform
 Youtube จะไม่อิงกับ Platform ใดๆเลย ซึ่งในเดือน 2020 เป็นขาลงของ Youtube
