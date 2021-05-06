@@ -2,13 +2,16 @@ title:การวิเคราะห์ตลาด Platform Social media
 
 desc:เป้าหมายของ Project นี้คือการสำรวจว่า Platform ไหนมีผู้ใช้เยอะสุด การเปลี่ยนแปลงของ Engagement ในแต่ละเดือนของแต่ละ Platform กลุ่ม Influencer ในแต่ละ Platform และ Platform นั้นคนพูดถึงเรื่องอะไรบ้างโดยการตลาดบน Social Media ในปัจจุบันจำเป็นจะต้องใช้ข้อมูลเหล่านี้เพื่อประกอบการตัดสินใจในการลงทุนใน Platform นั้นๆ
 
+thumbnail:
+
+![visualization (2)](https://user-images.githubusercontent.com/83722061/117236122-4bf79480-ae52-11eb-9b88-7ee53474a3f1.png)
+
+proj-url:https://prezi.com/i/yf93oxrxvqzc/
+
 viz: [Bar Chart, Line Chart,Pie Chart,Scatter Plot,Wordcloud]
 
 tools: [Altair,Python,PowerBI,Excel,Prezi]
 
-thumbnail:
-
-![visualization (2)](https://user-images.githubusercontent.com/83722061/117236122-4bf79480-ae52-11eb-9b88-7ee53474a3f1.png)
 ## ข้อมูล
 ใช้ Dataset ของคุณต่อใน Google Classroom
 ## validation
