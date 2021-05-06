@@ -1,8 +1,14 @@
 title:การวิเคราะห์ตลาด Platform Social media
+
 desc:เป้าหมายของ Project นี้คือการสำรวจว่า Platform ไหนมีผู้ใช้เยอะสุด การเปลี่ยนแปลงของ Engagement ในแต่ละเดือนของแต่ละ Platform กลุ่ม Influencer ในแต่ละ Platform และ Platform นั้นคนพูดถึงเรื่องอะไรบ้างโดยการตลาดบน Social Media ในปัจจุบันจำเป็นจะต้องใช้ข้อมูลเหล่านี้เพื่อประกอบการตัดสินใจในการลงทุนใน Platform นั้นๆ
+
 viz: [Bar Chart, Line Chart,Pie Chart,Scatter Plot,Wordcloud]
+
 tools: [Altair,Python,PowerBI,Excel,Prezi]
-thumbnail:![visualization (2)](https://user-images.githubusercontent.com/83722061/117236122-4bf79480-ae52-11eb-9b88-7ee53474a3f1.png)
+
+thumbnail:
+
+![visualization (2)](https://user-images.githubusercontent.com/83722061/117236122-4bf79480-ae52-11eb-9b88-7ee53474a3f1.png)
 ## ข้อมูล
 ใช้ Dataset ของคุณต่อใน Google Classroom
 ## validation
@@ -18,13 +24,11 @@ thumbnail:![visualization (2)](https://user-images.githubusercontent.com/8372206
 4. Point-eng จะบอกเป็นแบบราย user กล่าวคือถ้าเราเป็น influencer นี้ จะมีโอกาสได้ engagement เยอะสุดหรือไม่ คำนวนโดย (engagement ของ influencer/จำนวน influencer)
 5. Point-fan จะบอกเป็นแบบราย user กล่าวคือถ้าเราเป็น influencer นี้ จะมีโอกาสได้ fan เยอะสุดหรือไม่ (Fan ของ influencer/จำนวน influencer)
 6. Wordcloud Wordcloud เป็นอีก 1 เครื่องมือที่ช่วยดูว่าทั้ง Platform กำลังพูดถึงเรื่องอะไร โดย wordcloud สามารถเป็นเครื่องมือในการช่วยตัดสินใจ
+
 ผลลัพธ์ที่ออกมาโดยสามารถดูรายละเอียดเพิ่มเติมได้ที่ URL ข้างบนเนื่องจากบางผลลัพธ์จำเป็นที่จะต้องใช้รูปดูประกอบ
 ## 1. Platform ที่คนใช้มากสุด
-Platform	Score
-Facebook	15
-IG		10
-Twitter		5
-Youtube		11
+![dekd1](https://user-images.githubusercontent.com/83722061/117239304-bca1af80-ae58-11eb-901b-1a0129df66aa.PNG)
+
 Facebook>Youtube>IG>Twitter
 ## 2.การทำ line chart 
 ในการทำ line chart เกี่ยวกับการใช้งานของแต่ละ Platform ในแต่ละช่วงเวลา เราได้ตั้งเดือนมกราคมเป็นเดือนฐาน เดือนต่อๆ มาจะลบด้วยเดือนฐานและหารด้วยเดือนฐาน คูณ 100ผลลัพธ์ที่ออกมาจะได้เป็น Percentage การเจริญเติบโตของEngagement โดยจะเห็นได้ว่า Twitter และ Facebook จะ
@@ -32,6 +36,7 @@ Facebook>Youtube>IG>Twitter
 Youtube จะไม่อิงกับ Platform ใดๆเลย ซึ่งในเดือน 2020 เป็นขาลงของ Youtube
 ## 3.Platform Youtube
 ผลลัพธ์จากการแยก influencer พบว่า Youtuberเหนือกว่าในด้าน Engagement ยอด Subscribe และจำนวน User แต่เมื่อเทียบเป็น ราย User พบว่า การทำ content Gamer มีโอกาสได้ยอด Engagement สูงกว่าแต่ยอด subscribe ยังแพ้ Youtuber
+
 ***ผลลัพธ์ Wordcloud*** ส่วนใหญ่พูดเกี่ยวกับการลงโฆษณา การกด like Subscribe แล้วคำศัพท์เกี่ยวกับ Game
 จึงสรุปได้ว่า Platform Youtube เกี่ยวกับ เกมและ Youtuber ซึ่งสามารถแยกได้อีกว่าเป็น game อะไร หรือ youtube ทำเกี่ยวกับอะไรอ่านรายละอียดเพิ่มเติมได้ที่ URL ข้างบน
 ## 4.Platform Facebook
@@ -52,6 +57,7 @@ youtuber
 สื่อ
 อาหาร จากผลลัพธ์จะเห็นได้ว่า User ประเภทสื่อจะครอบครอง Engagement บน Platform Facebook และ User ที่ทำเกี่ยวกับอาหารจะมียอด Fan หรือคนกด like page เยอะ นอกจากนี้จากการสำรวจพบว่าจำนวน User ที่มากที่สุดบน Platform 
 Facebook คือ User ที่ทำเกี่ยวกับสื่อ และ อาหารเมื่อเทียบเป็นราย User หรือ Point พบว่า การทำ User ประเภทสื่อ จะมีโอกาสที่จะได้ยอด Engagement สูงที่สุด ในขณะที่การทำ User ประเภทตลาด จะมียอดคนกดถูกใจเพจสูงที่สุด
+
 ***ผลลัพธ์ Wordcloud***
 ## 5.Platform Twitter 
 ผลลัพธ์จาก Influencer
@@ -69,6 +75,7 @@ R/J  บัญชีเกี่ยวกับการรีวิวที่
 และบัญชีที่เกี่ยวกับสัตว์มียอด engagement 16.35% หรือมียอด engagemant 14424933 แต่ในทางกลับกันยอดfan บัญชีที่มีมากสุดเป็นบัญชีที่เกี่ยวกับความบันเทิง รองลงมาคือบัญชีที่โพสทุกอย่าง แล้วก็เป็น beauty blocker ตามลำดับเมื่อเทียบกับยอด Fan พบว่ากลุ่ม 
 Twitter ที่เกี่ยวกับความบันเทิงมียอดผู้ติดตามเยอะสุด นอกจากนี้จำนวน influencer ที่เยอะสุดคือ influecer ที่เป็นชาวทวีตที่โพสทุกอย่างไม่เจาะจงเมื่อเทียบเป็นราย User พบว่า User Twitter ที่โพสเกี่ยวกับสัตว์มีโอกาสที่จะได้ Engagement สูงที่สุด 
 ในขณะที่การทำ Twitter เกี่ยวกับ Beauty Blocker มีโอกาสที่จะได้ยอด follow สูงสุดอย่างไรก็ตามการวัดเป็นราย User จะไม่ค่อยแม่นยำเนื่องจาก จำนวน Influence แต่ละประเภทมีน้อยเกินไป๒
+
 ***ผลลัพธ์ Wordcloud*** จากการสำรวจ Wordcloud Twitter พบว่าคำที่ใช้ส่วนใหญ่จะเกี่ยวกับการเมืองเช่น หยุดคุกคามประชาชน 16 ตุลาไปแยกปทุมวัน เยาวชนปลดแอก 16 ตุลาไปแยกราชประสงค์ซึ่งจะตรงกับสมมุติฐานจากกราฟเส้นหน้า3 ที่บอกไว้ว่า Platform Twitter 
 จะอิงกับข่าวสารบ้านเมืองและในช่วงเดือนตุลาคมกราฟเส้น Platform Twitter จะพุ่งขึ้นมาอย่างมากซึ่งตรงกับ Wordcloud พอดี นอกจากนี้ยังมีศัพท์เกี่ยวกับการขายของเช่น ร้าน แจก บาท  และยังมีศัพท์เกี่ยวกับ Beauty Blocker เช่น ลิป พาเลท สี และยังมีศัพท์เกี่ยวกับเกาหลีเช่น รีวิวเกาหลี Got7 BTS ซึ่งอาจเป็นไปได้ว่า Influencer 
 กลุ่มเล็กที่เกี่ยวกับวงเกาหลี อาจจะกระจายกันจนทำให้ไม่มี User ใดที่อยู่ในกลุ่มครอบครอง 50 % engagement แรกอย่างไรก็ตามจาก wordcloud 
@@ -90,6 +97,7 @@ E/A บัญชีที่เกี่ยวกับการ entertain
 รองลงมาคือบัญชีของยูทูปเบอร์เดี่ยว มียอด engagement 31.69% หรือมียอด engagemant 13073557 แล้วก็ทีม มียอด engagement 15.25% หรือมียอด engagemant 6294303 ตามลำดับเมือเทียบยอด Engagement กับยอด Fan พบว่ากลุ่มบัญชีนักแสดงหญิงมียอดผู้ติดตามเยอะสุดเหมือนกัน นอกจากนี้จำนวน influencer ที่เยอะสุดคือ influecer ของนักแสดงหญิงเช่นกัน
 เมื่อเทียบเป็นราย User พบว่า User Twitter ที่โพสเกี่ยวกับการขายของมีโอกาสที่จะได้ Engagement สูงที่สุด ในขณะที่บัญชี เกี่ยวกับ youtuber มีโอกาสที่จะได้ยอด follow สูงสุด
 อย่างไรก็ตามการดูผลลัพธ์โดย Point จะไม่ค่อยมีประสิทธิภาพเนื่องจากจำนวน User ในแต่ละประเภทน้อยเกินไป อย่างเช่น บัญชีเกี่ยวกับการขายของ หรือ บัญชีเกี่ยวกับการโพสรูปเด็ก มีจำนวน User แค่ 1 User เท่านั้น ทำให้จำนวน Engagement อาจจะเยอะกว่า User กลุ่มอื่นที่มีจำนวน User มากกว่า
+
 ***ผลลัพธ์ Wordcloud*** จะเห็นได้ว่า wordcloud เกือบที้งหมดจะเกี่ยวกับขายของหมดเลยซึ่ง Wordcloud จะมีปัญหากับ Platform IG ตรงที่ว่า Platform IG ส่วนใหญ่จะลงเกี่ยวกับรูปซึ่งอาจจะไม่ได้ใช้คำกันมากนัก โดยการสรุปว่า Platform IG ส่วนใหญ่จะทำเกี่ยวกับการขายของคงจะไม่ค่อยมีประสิทธิภาพนัก ดังนั้นดีที่สุดควรอิงผลลัพธ์จากการดูว่า influencer ทำอะไรเป็นหลัก
 ## สรุป
 ![dekd](https://user-images.githubusercontent.com/83722061/117236291-9bd65b80-ae52-11eb-9172-d83ee38bc07e.PNG)
