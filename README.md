@@ -100,5 +100,6 @@ E/A บัญชีที่เกี่ยวกับการ entertain
 
 ***ผลลัพธ์ Wordcloud*** จะเห็นได้ว่า wordcloud เกือบที้งหมดจะเกี่ยวกับขายของหมดเลยซึ่ง Wordcloud จะมีปัญหากับ Platform IG ตรงที่ว่า Platform IG ส่วนใหญ่จะลงเกี่ยวกับรูปซึ่งอาจจะไม่ได้ใช้คำกันมากนัก โดยการสรุปว่า Platform IG ส่วนใหญ่จะทำเกี่ยวกับการขายของคงจะไม่ค่อยมีประสิทธิภาพนัก ดังนั้นดีที่สุดควรอิงผลลัพธ์จากการดูว่า influencer ทำอะไรเป็นหลัก
 ## สรุป
-![dekd](https://user-images.githubusercontent.com/83722061/117236291-9bd65b80-ae52-11eb-9172-d83ee38bc07e.PNG)
+![dekd](https://user-images.githubusercontent.com/83722061/117239841-b6f89980-ae59-11eb-916c-becf0c6d2859.PNG)
+
 
