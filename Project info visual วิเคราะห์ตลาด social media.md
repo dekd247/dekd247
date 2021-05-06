@@ -28,6 +28,9 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 5. Point-fan จะบอกเป็นแบบราย user กล่าวคือถ้าเราเป็น influencer นี้ จะมีโอกาสได้ fan เยอะสุดหรือไม่ (Fan ของ influencer/จำนวน influencer)
 6. Wordcloud Wordcloud เป็นอีก 1 เครื่องมือที่ช่วยดูว่าทั้ง Platform กำลังพูดถึงเรื่องอะไร โดย wordcloud สามารถเป็นเครื่องมือในการช่วยตัดสินใจ
 
+มีกราฟ engagement แล้วทำไมต้องทำ point-eng อีก เนื่องจากอาจจะมีกรณีที่ influencer ประเภทนั้นมีจำนวนเยอะมากส่งผลให้มียอด engagement รวมเยอะ แต่ แต่ละ user มี engagement น้อยมาก ดังนั้น point-engจึงเหมือนเป็นเครื่องมือช่วยดูว่า influencer แต่ละประเภทมียอด engagement ที่แท้จริงมีเท่าไหร่
+อย่างไรก็ตาม point-eng จะด้อยประสิทธิภาพ เมื่อจำนวน influencer ในประเภทนั้นๆ มีน้อยกว่า 5
+
 ผลลัพธ์ที่ออกมาโดยสามารถดูรายละเอียดเพิ่มเติมได้ที่ URL ข้างบนเนื่องจากบางผลลัพธ์จำเป็นที่จะต้องใช้รูปดูประกอบ
 ## 1. Platform ที่คนใช้มากสุด
 ![dekd1](https://user-images.githubusercontent.com/83722061/117239304-bca1af80-ae58-11eb-901b-1a0129df66aa.PNG)
@@ -61,7 +64,9 @@ youtuber
 อาหาร จากผลลัพธ์จะเห็นได้ว่า User ประเภทสื่อจะครอบครอง Engagement บน Platform Facebook และ User ที่ทำเกี่ยวกับอาหารจะมียอด Fan หรือคนกด like page เยอะ นอกจากนี้จากการสำรวจพบว่าจำนวน User ที่มากที่สุดบน Platform 
 Facebook คือ User ที่ทำเกี่ยวกับสื่อ และ อาหารเมื่อเทียบเป็นราย User หรือ Point พบว่า การทำ User ประเภทสื่อ จะมีโอกาสที่จะได้ยอด Engagement สูงที่สุด ในขณะที่การทำ User ประเภทตลาด จะมียอดคนกดถูกใจเพจสูงที่สุด
 
-***ผลลัพธ์ Wordcloud***
+***ผลลัพธ์ Wordcloud*** Wordcloud บน Facebook สามารถบอกเราได้ว่า Platform นี้เกี่ยวกับการท่องเที่ยวเช่น
+unseentour thailand ชื่อจังหวัดต่างๆ ชื่อสถานที่ท่องเที่ยว เช่นหลวงพ่อโต นอกจากนี้ wordcloud ยังพูดถึงเรื่องอาหารเช่น เรื่องกินเรื่องใหญ่ wongnai ครัวแล้วแต่จ้า starvingtime
+
 ## 5.Platform Twitter 
 ผลลัพธ์จาก Influencer
 โดย ประเภทของ influecner มีดังนี้
