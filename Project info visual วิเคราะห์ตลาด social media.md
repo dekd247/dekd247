@@ -36,15 +36,16 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 
 หลังจากที่แยก User แต่ละ Platform เสร็จแล้ว ผมจะทำการแบ่งกราฟออกมาเป็น 5 กราฟ ซึ่งแต่ละกราฟจะแสดงถึงว่า influencer กลุ่มไหนครอบครองด้านอะไรบ้างในแต่ละ Platform โดยกราฟ5กราฟ จะมี
 1. scatter plot ที่แกน X เป็นยอด Fan และ y เป็นยอด Engagement สามารถมองได้ว่า User ไหน อยู่ลำดับไหนบนแต่ละ Platform (เหมาะสำหรับดูว่า User แบบรายเดี่ยว)
-2. Pie Chart Engagement กราฟนี้จะสามารถบอกได้ว่า  influencer กลุ่มไหนครอบครอง engagement 50% แรก มากสุดบนแต่ละ Platform เปรียบได้ว่าเป็นกลุ่มที่มีอิทธิพลด้าน Engagement บน Platform นั้น
-3. Pie Chart Fan/Subscribe กราฟนี้จะบอกว่า ในกลุ่ม influencer กลุ่มไหนมียอดแฟนเยอะสุด  เปรียบได้ว่าเป็นกลุ่มที่มีอิทธิพลด้าน Fan บน Platform นั้นๆ
+2. Pie Chart Engagement กราฟนี้ที่รวมยอด Engagement ของแต่ละกลุ่ม Influencer กราฟนี้จะสามารถบอกได้ว่า  influencer กลุ่มไหนครอบครอง engagement 50% แรก มากสุดบนแต่ละ Platform เปรียบได้ว่าเป็นกลุ่มที่มีอิทธิพลด้าน Engagement บน Platform นั้น
+3. Pie Chart Fan/Subscribe กราฟนี้ที่รวมยอด Fan ของแต่ละกลุ่ม Influenceกราฟนี้จะบอกว่า ในกลุ่ม influencer กลุ่มไหนมียอดแฟนเยอะสุด  เปรียบได้ว่าเป็นกลุ่มที่มีอิทธิพลด้าน Fan บน Platform นั้นๆ
 4. Pie Chart Point-eng จะบอกเป็นแบบราย user กล่าวคือถ้าเราเป็น influencer นี้ จะมีโอกาสได้ engagement เยอะสุดหรือไม่ คำนวนโดย (Point-Eng = engagement ของกลุ่ม influencer/จำนวน influencer ของกลุ่ม)
 5. Pie Chart Point-fan จะบอกเป็นแบบราย user กล่าวคือถ้าเราเป็น influencer นี้ จะมีโอกาสได้ fan เยอะสุดหรือไม่ (Point-Fan = Fan ของกลุ่ม influencer/จำนวน influencer ของกลุ่ม)
 
-กราฟ 2-5 จะวัดจาก % มากสุด กล่าวคือถ้า กลุ่ม Influencer กลุ่มไหนมี % มากสุดก็หมายความว่าก็เป็นลำดับ 1 ในด้านนั้นๆ
+กราฟ 2-5 จะวัดจาก % มากสุด กล่าวคือถ้า กลุ่ม Influencer กลุ่มไหนมี % มากสุดใน Pie Chart ก็หมายความว่าก็เป็นลำดับ 1 ในด้านนั้นๆ
 
 มีกราฟ engagement แล้วทำไมต้องทำ point-eng อีก เนื่องจากอาจจะมีกรณีที่ influencer ประเภทนั้นมีจำนวนเยอะมากส่งผลให้มียอด engagement รวมเยอะ แต่ แต่ละ user มี engagement น้อยมาก ดังนั้น point-engจึงเหมือนเป็นเครื่องมือช่วยดูว่า influencer แต่ละประเภทมียอด engagement ที่แท้จริงมีเท่าไหร่
 อย่างไรก็ตาม point-eng จะด้อยประสิทธิภาพ เมื่อจำนวน influencer ในประเภทนั้นๆ มีน้อยกว่า 5
+
 โดยข้อ 2 - 5 หากกลุ่ม Influencer ไหนมีจำนวน % ใน Pie Chart เยอะสุดก็จะครอบครองในด้านนั้นๆ
 
 *หมายเหตุ Engagement ใน Platform Youtube จะวัดจาก Engagement + View เพราะ Platform Youtube จะวัดความ Popular จะวัดจากยอด View*
@@ -63,10 +64,10 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 
 2. Line Chart เวลา
 Line Chart เวลา ที่แกน x จะเป็นเดือน และแกน y จะเป็น Percent การเปลี่ยนแปลงของ Engagement โดยที่ตั้งเดือนมกราคมเป็นเดือนฐาน กราฟนี้จะสามารถพิสูจน์ได้ว่าการเปลี่ยนแปลง Engagement ของแต่ละ Platform เกี่ยวข้องกับเหตุการณ์บ้านเมืองหรือไม่ เช่นเดือนตุลาที่มีเหตุการณ์การประท้วงอย่างหนัก
-โดย Platform Facebook และ Twitter มียอด engagement พุ่งขึ้นอย่างเห็นได้ชัด แก็สามารถบอกได้ว่า Platform Twitter หรือ Facebook อาจจะเกี่ยวกับการเมือง หรือข่าวสาร หาก Platform ไหนมีเส้นไม่เปลี่ยนแปลงตามเหตุการณ์บ้านเมืองก็จะสรุปได้ว่าไม่สามารถบอกได้ว่า Platform นั้นพูดถึงเรื่องอะไรด้วยการใช้ Pie Chart นอกจากนี้ Line Chart นี้สามารถพิสูจน์ได้ว่าภาพของ Engagement ในแต่ละ Platform เป็นอย่างไร
+โดย Platform Facebook และ Twitter มียอด engagement พุ่งขึ้นอย่างเห็นได้ชัด ก็สามารถบอกได้ว่า Platform Twitter หรือ Facebook อาจจะเกี่ยวกับการเมือง หรือข่าวสาร หาก Platform ไหนมีเส้นไม่เปลี่ยนแปลงตามเหตุการณ์บ้านเมืองก็จะสรุปได้ว่าไม่สามารถบอกได้ว่า Platform นั้นพูดถึงเรื่องอะไรด้วยการใช้ Pie Chart นอกจากนี้ Line Chart นี้สามารถพิสูจน์ได้ว่าภาพของ Engagement ในแต่ละ Platform เป็นอย่างไร
 เช่นถ้าเส้น youtube มีทิศทางลงก็หมายความว่าคนไม่ค่อยใช้งาน Youtube ในช่วงปี 2020 
 
-อย่างไรก็ตาม การพิสูจน์ว่าแต่ละ Platform พูดถึงเรื่องอะไรมากสุดในปี 2020 อาจจะต้องใช้ข้อมูลกลุ่ม Influencer ประกอบด้วยเนื่องจากข้อความบาง Platform อาจจะมีการ Spam โดยเฉเพาะข้อความการขายของ แม้ว่ากรองด้วยยอด Engagement แล้ว หรือ Line Chart ไม่สามารถบอกอะไรได้
+
 ## สรุป
 ![Capture](https://user-images.githubusercontent.com/83722061/117255798-46ab4180-ae74-11eb-885e-90f83be0fde4.PNG)
 
