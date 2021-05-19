@@ -21,6 +21,7 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 3. Platform พูดถึงเรื่องอะไรมากสุดในปี 2020
 
 **การ valdiate ว่า Platform ไหนคนใช้เยอะสุด**
+
 ผมจะพิสูจน์ว่า platform ไหนเยอะสุด โดยผมจะสร้างกราฟ pie chart  ออกเป็น 4 กราฟได้แก่ 
 
 1.Engagement ที่รวม like dislike share retweet ของแต่ละ platform 
@@ -31,7 +32,7 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 ซึ่งในการวัดว่า Platform ไหนผู้ใช้เยอะสุดเราได้วัดจากการทำ Quality Metric โดยถ้า Platform ไหนมีจำนวน % เยอะสุดใน pie chart หัวข้อนั้นๆ จะได้ 4 คะแนน ส่วนลำดับรองลงมาก็จะได้คะแนน 3 2 และ 1 ตามลำดับ ทำแบบนี้ทั้งหมด 4 กราฟแล้วรวมคะแนน
 โดย Platform ที่มีคะแนนมากสุดก็จะหมายความว่ามีคนใช้เยอะสุดในปี 2020
 
-**การ valdiate ว่า Influencer หรือ User กลุ่มไหนครอบครองในแต่ละ Platform**
+**การ valdiate ว่า Influencer หรือ User กลุ่มไหนครอบครองด้านไหนบ้างในแต่ละ Platform**
 
 ก่อนอื่นต้องแยก user ออกมาก่อนโดยที่ผมจะทำการแยก User ที่มี Engagement รวมกันประมาณ 50 %แรก ของทั้ง Platform ทำแบบนี้ 4 Platform หลังจากนั้นก็ทำการสำรวจว่า User นี้ทำ Content เกี่ยวกับอะไรหลังจากนั้นก็ทำการจับกลุ่มกันในแต่ละ Platform
 
