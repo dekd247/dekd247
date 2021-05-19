@@ -15,7 +15,11 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 ## ข้อมูล
 ใช้ Dataset ของคุณต่อใน Google Classroom
 ## Valdiate
-**Platform ไหนคนใช้เยอะสุด**
+ในการวิเคราะห์การตลาดบน Social Media ว่า Platform ไหนเหมาะกับการลงทุนจำเป็นที่จะต้องทำการสำรวจซึ่งประกอบไปด้วย 3 หัวข้อ
+1. Platform ไหนคนใช้เยอะสุด
+2. Influencer หรือ User กลุ่มไหนครอบครองในแต่ละ Platform
+3. Platform พูดถึงเรื่องอะไรมากสุดในปี 2020
+**การ valdiate ว่า Platform ไหนคนใช้เยอะสุด**
 ผมจะพิสูจน์ว่า platform ไหนเยอะสุด โดยผมจะสร้างกราฟ pie chart  ออกเป็น 4 กราฟได้แก่ 
 
 1.Engagement ที่รวม like dislike share retweet ของแต่ละ platform 
@@ -26,7 +30,7 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 ซึ่งในการวัดว่า Platform ไหนผู้ใช้เยอะสุดเราได้วัดจากการทำ Quality Metric โดยถ้า Platform ไหนมีจำนวน % เยอะสุดใน pie chart หัวข้อนั้นๆ จะได้ 4 คะแนน ส่วนลำดับรองลงมาก็จะได้คะแนน 3 2 และ 1 ตามลำดับ ทำแบบนี้ทั้งหมด 4 กราฟแล้วรวมคะแนน
 โดย Platform ที่มีคะแนนมากสุดก็จะหมายความว่ามีคนใช้เยอะสุดในปี 2020
 
-**การดูว่า Influencer หรือ User กลุ่มไหนครอบครอง แต่ละ Platform**
+**การ valdiate ว่า Influencer หรือ User กลุ่มไหนครอบครองในแต่ละ Platform**
 
 ก่อนอื่นต้องแยก user ออกมาก่อนโดยที่ผมจะทำการแยก User ที่มี Engagement รวมกันประมาณ 50 %แรก ของทั้ง Platform ทำแบบนี้ 4 Platform หลังจากนั้นก็ทำการสำรวจว่า User นี้ทำ Content เกี่ยวกับอะไรหลังจากนั้นก็ทำการจับกลุ่มกันในแต่ละ Platform
 
@@ -42,9 +46,10 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 มีกราฟ engagement แล้วทำไมต้องทำ point-eng อีก เนื่องจากอาจจะมีกรณีที่ influencer ประเภทนั้นมีจำนวนเยอะมากส่งผลให้มียอด engagement รวมเยอะ แต่ แต่ละ user มี engagement น้อยมาก ดังนั้น point-engจึงเหมือนเป็นเครื่องมือช่วยดูว่า influencer แต่ละประเภทมียอด engagement ที่แท้จริงมีเท่าไหร่
 อย่างไรก็ตาม point-eng จะด้อยประสิทธิภาพ เมื่อจำนวน influencer ในประเภทนั้นๆ มีน้อยกว่า 5
 โดยข้อ 2 - 5 หากกลุ่ม Influencer ไหนมีจำนวน % ใน Pie Chart เยอะสุดก็จะครอบครองในด้านนั้นๆ
-*หมายเหตุ Engagement ใน Platform Youtube จะวัดจาก Engagement + View เพราะ Platform Youtube จะวัดความ Popular จะวัดจากยอด View
 
-**การพิสูจน์ว่าแต่ละ Platform พูดถึงเรื่องอะไรมากสุดในปี 2020**
+*หมายเหตุ Engagement ใน Platform Youtube จะวัดจาก Engagement + View เพราะ Platform Youtube จะวัดความ Popular จะวัดจากยอด View*
+
+**การ valdiate ว่าแต่ละ Platform พูดถึงเรื่องอะไรมากสุดในปี 2020**
 
 ผมจะทำการแบ่งออกมาเป็น 2 visualisation เพื่อเป็น visual evidence ในการพิสูจน์โดยประกอบไปด้วย
 1. Wordcloud Wordcloud เป็นอีก 1 เครื่องมือที่ช่วยดูว่าทั้ง Platform กำลังพูดถึงเรื่องอะไร โดย เราจะสังเกตจากศัพท์ที่มีตัวใหญ่หรือกลุ่มคำศัพท์ที่คล้ายกัน ก็จะสามารถบอกได้แล้วว่า Platform นี้พูดถึงเรื่องอะไรเช่น Twitter คำศัพท์ที่ใช้กันเยอะก็จะมี 14ตุลา ปลดแอค ซึ่ง
