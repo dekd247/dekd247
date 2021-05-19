@@ -38,6 +38,7 @@ tools: [Altair,Python,PowerBI,Excel,Prezi]
 5. Pie Chart Point-fan จะบอกเป็นแบบราย user กล่าวคือถ้าเราเป็น influencer นี้ จะมีโอกาสได้ fan เยอะสุดหรือไม่ (Point-Fan = Fan ของกลุ่ม influencer/จำนวน influencer ของกลุ่ม)
 
 กราฟ 2-5 จะวัดจาก % มากสุด กล่าวคือถ้า กลุ่ม Influencer กลุ่มไหนมี % มากสุดก็หมายความว่าก็เป็นลำดับ 1 ในด้านนั้นๆ
+
 มีกราฟ engagement แล้วทำไมต้องทำ point-eng อีก เนื่องจากอาจจะมีกรณีที่ influencer ประเภทนั้นมีจำนวนเยอะมากส่งผลให้มียอด engagement รวมเยอะ แต่ แต่ละ user มี engagement น้อยมาก ดังนั้น point-engจึงเหมือนเป็นเครื่องมือช่วยดูว่า influencer แต่ละประเภทมียอด engagement ที่แท้จริงมีเท่าไหร่
 อย่างไรก็ตาม point-eng จะด้อยประสิทธิภาพ เมื่อจำนวน influencer ในประเภทนั้นๆ มีน้อยกว่า 5
 โดยข้อ 2 - 5 หากกลุ่ม Influencer ไหนมีจำนวน % ใน Pie Chart เยอะสุดก็จะครอบครองในด้านนั้นๆ
